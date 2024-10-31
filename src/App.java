@@ -1,5 +1,9 @@
+import seriesnumericas.Gr5Serie;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Gr5Serie serie =  new Gr5Serie();
+        serie.Gr5_crearSerieFibonacci();
+
     }
 }
